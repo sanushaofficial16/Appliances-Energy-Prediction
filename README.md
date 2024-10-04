@@ -51,7 +51,7 @@ Performed GridSearchCV to optimize model hyperparameters, improving performance.
 The models have been saved using joblib for future use, allowing easy reloading without retraining.
 
 15. Test with Unseen Data:
-You assessed the model’s performance on unseen data (either from a test set or a completely new dataset), ensuring it generalizes well.
+Assessed the model’s performance on unseen data (either from a test set or a completely new dataset), ensuring it generalizes well.
 
 16. Interpretation of Results (Conclusion):
 In this step, you've analyzed the performance of the different models, concluding that Random Forest Regressor provide the best results, with some limitations regarding the dataset (e.g., lack of external factors like weather and occupancy).
