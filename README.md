@@ -11,7 +11,7 @@ Source: The dataset contains features related to temperatures, humidity, and ene
 Features: Numerical features related to environmental conditions, which are crucial for building a predictive energy model.
 
 4. Data Collection:
-energydata_complete.csv
+[energydata_complete.csv](https://data.world/uci/appliances-energy-prediction)
 
 5. Data Preprocessing and Cleaning:
 Handle Missing Values: The dataset doesn't appear to have missing values.
@@ -39,22 +39,22 @@ SVR
 Random Forest Regressor
 Gradient Boosting Regressor
 Linear Regression
-MLP Regressor (Neural Network)
+AdaBoost Regressor
 
 12. Model Evaluation:
 Used regression metrics like MAE, MSE, RMSE, and R² Score to evaluate model performance.
 
 13. Hyperparameter Tuning:
-Performed GridSearchCV and RandomizedSearchCV to optimize model hyperparameters, improving performance.
+Performed GridSearchCV to optimize model hyperparameters, improving performance.
 
 14. Save the Model:
-The models have been saved using joblib or pickle for future use, allowing easy reloading without retraining.
+The models have been saved using joblib for future use, allowing easy reloading without retraining.
 
 15. Test with Unseen Data:
 You assessed the model’s performance on unseen data (either from a test set or a completely new dataset), ensuring it generalizes well.
 
 16. Interpretation of Results (Conclusion):
-In this step, you've analyzed the performance of the different models, concluding that Gradient Boosting Regressor and Random Forest Regressor provide the best results, with some limitations regarding the dataset (e.g., lack of external factors like weather and occupancy).
+In this step, you've analyzed the performance of the different models, concluding that Random Forest Regressor provide the best results, with some limitations regarding the dataset (e.g., lack of external factors like weather and occupancy).
 
 17. Future Work:
 Deep Learning: Implementing RNNs/LSTMs or deeper MLPs to capture temporal dependencies and potentially improve prediction accuracy.
