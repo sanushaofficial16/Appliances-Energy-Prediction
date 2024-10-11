@@ -142,6 +142,6 @@ The results of the project aim to:
 
 ## Contributing
 
-Contributions are welcome!
+Contributions are welcome !
 
 ---
