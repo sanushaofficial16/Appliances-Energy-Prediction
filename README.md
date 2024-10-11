@@ -14,7 +14,6 @@ This project focuses on predicting the energy consumption of household appliance
 6. [Model Evaluation](#model-evaluation)
 7. [Results](#results)
 8. [Contributing](#contributing)
-9. [License](#license)
 
 ---
 
@@ -56,7 +55,7 @@ The project follows a structured machine learning workflow:
 Data preprocessing is an essential step in the pipeline, ensuring that the dataset is clean and ready for modeling. This involves:
 
 - Handling missing or inconsistent data.
-- Scaling or normalizing the features to ensure uniformity.
+- Scaling the features to ensure uniformity.
 - Selecting important features that are highly correlated with energy consumption.
 
 ### 2. Exploratory Data Analysis (EDA)
@@ -65,17 +64,17 @@ EDA is performed to explore relationships between different features and the tar
 
 - Visualizing the distribution of energy consumption over time.
 - Understanding correlations between indoor and outdoor conditions with energy usage.
-- Analyzing trends and patterns using various visualizations like heatmaps, pair plots, and time series plots.
+- Analyzing trends and patterns using various visualizations like heatmaps, pair plots, and box plots.
 
 ### 3. Model Selection and Training
 
 Multiple machine learning algorithms are evaluated to determine the best fit for the prediction task. The models considered include:
 
 - **Linear Regression**
-- **Random Forest**
-- **Gradient Boosting**
-- **Support Vector Regressor (SVR)**
-- **XGBoost**
+- **Random Forest Regressor**
+- **Gradient Boosting Regressor**
+- **Decision Tree Regressor**
+- **XGBoost Regressor**
 
 These models are trained using cross-validation techniques to ensure that the results are robust and generalizable.
 
@@ -143,18 +142,6 @@ The results of the project aim to:
 
 ## Contributing
 
-Contributions are welcome! If you'd like to contribute to this project:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Submit a pull request, and it will be reviewed.
+Contributions are welcome!
 
 ---
-
-## License
-
-This project is licensed under the MIT License, which allows for reuse, modification, and distribution. Feel free to use it as a base for your own energy prediction models or improvements.
-
----
-
-Feel free to adjust or expand this README as needed for your GitHub project.
